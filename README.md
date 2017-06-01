@@ -14,7 +14,7 @@ branchname            ->   captured
 `master`              ->  `master`
 
 
-so in summation if you are on branch `feature/RNTM-678`
+in summation, if you are on branch `feature/RNTM-678`
 and you run the following after staging:
 
 ```
