@@ -7,9 +7,11 @@ examples of what will be captured:
 
 branchname            ->   captured
 ------------------
-`feature/MEC-1984`    ->  `MEC-1984`
-`bugfix/MEC-1984/v2`  ->  `MEC-1984`
-`master`              ->  `master`
+`feature/MEC-1984`    ->  `MEC-1984` \s\s
+
+`bugfix/MEC-1984/v2`  ->  `MEC-1984` \s\s
+
+`master`              ->  `master`   \s\s
 
 
 so in summation if you are on branch `feature/RNTM-678`
