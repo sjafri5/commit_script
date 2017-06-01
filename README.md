@@ -1,10 +1,10 @@
-# RULES
+## RULES
 
 The script will parse your branch name to find the JIRA ticket number so you don't have to type it after each commit.
 It assumes the following structure:  <ticket-type>/<ticket-number>
 
 
-## examples
+### examples
 branchname            ->   captured
 
 `feature/MEC-1984`    ->  `MEC-1984`
@@ -29,7 +29,7 @@ the commit message that will be logged will be:
 
 It also logs the last ten commits for your convenience.
 
-# SETUP
+## SETUP
 
 1) `git clone https://github.com/sjafri5/commit_script.git`
 2) setup script stuff on your computer ?
