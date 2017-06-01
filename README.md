@@ -36,10 +36,11 @@ It also logs the last ten commits for your convenience.
 4) `$ chmod 711 commit.sh`
 5) add the following line to your `~/.bash_profile`:
 
-  (you can substitute `commit` to whatever alias you want to type on the cli)
-
   ```
     commit alias commit='commit.sh'
   ```
+
+  <sub>(you can substitute `commit` to whatever alias you want to type on the cli)</sub>
+  
 
 6) `$ . ~/.bash_profile`
