@@ -30,10 +30,10 @@ It also logs the last ten commits for your convenience.
 
 ## Setup
 
-1) `git clone https://github.com/sjafri5/commit_script.git`
-2) `cd commit_script`
-3) ``echo "export PATH=\$PATH:`pwd`" >> ~/.bash_profile``
-4) chmod 711 commit.sh
+1) `$ git clone https://github.com/sjafri5/commit_script.git`
+2) `$ cd commit_script`
+3) ``$ echo "export PATH=\$PATH:`pwd`" >> ~/.bash_profile``
+4) $`chmod 711 commit.sh`
 5) add the following line to your `~/.bash_profile`:
 
   (you can substitute `commit` to whatever alias you want to type on the cli)
