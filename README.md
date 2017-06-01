@@ -1,4 +1,4 @@
-## Summary 
+## RULES
 
 The script will parse your branch name to find the JIRA ticket number so you don't have to type it after each commit.
 It assumes the following structure:  <ticket-type>/<ticket-number>
@@ -12,6 +12,7 @@ branchname            ->   captured
 `bugfix/MEC-1984/v2`  ->  `MEC-1984`
 
 `master`              ->  `master`
+
 
 in summation, if you are on branch `feature/RNTM-678`
 and you run the following after staging:
@@ -28,19 +29,17 @@ the commit message that will be logged will be:
 
 It also logs the last ten commits for your convenience.
 
-## Setup
+## SETUP
 
-1) `$ git clone https://github.com/sjafri5/commit_script.git`
-2) `$ cd commit_script`
-3) ``$ echo "export PATH=\$PATH:`pwd`" >> ~/.bash_profile``
-4) `$ chmod 711 commit.sh`
+1) `git clone https://github.com/sjafri5/commit_script.git`
+2) `cd commit_script`
+3) `echo "export PATH=\$PATH:`pwd`" >> ~/.bash_profile`
+4) chmod 711 commit.sh
 5) add the following line to your `~/.bash_profile`:
 
   ```
     commit alias commit='commit.sh'
+    # (you can submit `commit` to whatever alias you want to type on the cli)
   ```
 
-  <sub>(you can substitute `commit` to whatever alias you want to type on the cli)</sub>
-  
-
-6) `$ . ~/.bash_profile`
+6) `. ~/.bash_profile`
