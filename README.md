@@ -39,7 +39,8 @@ It also logs the last ten commits for your convenience.
 
   ```
     commit alias commit='commit.sh'
-    # (you can submit `commit` to whatever alias you want to type on the cli)
+
+    # (you can substitute `commit` to whatever alias you want to type on the cli)
   ```
 
 6) `. ~/.bash_profile`
