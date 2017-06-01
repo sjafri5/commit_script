@@ -1,4 +1,4 @@
-## RULES
+## Summary 
 
 The script will parse your branch name to find the JIRA ticket number so you don't have to type it after each commit.
 It assumes the following structure:  <ticket-type>/<ticket-number>
@@ -12,7 +12,7 @@ branchname            ->   captured
 `bugfix/MEC-1984/v2`  ->  `MEC-1984`
 
 `master`              ->  `master`
-
+----------
 
 in summation, if you are on branch `feature/RNTM-678`
 and you run the following after staging:
