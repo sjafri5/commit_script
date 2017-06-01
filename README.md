@@ -28,7 +28,7 @@ the commit message that will be logged will be:
 
 It also logs the last ten commits for your convenience.
 
-## SETUP
+## Setup
 
 1) `git clone https://github.com/sjafri5/commit_script.git`
 2) `cd commit_script`
