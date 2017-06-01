@@ -3,15 +3,15 @@
 The script will parse your branch name to find the JIRA ticket number so you don't have to type it after each commit.
 It assumes the following structure:  <ticket-type>/<ticket-number>
 
-examples of what will be captured:
 
+## examples
 branchname            ->   captured
-------------------
-`feature/MEC-1984`    ->  `MEC-1984` \s\s
 
-`bugfix/MEC-1984/v2`  ->  `MEC-1984` \s\s
+`feature/MEC-1984`    ->  `MEC-1984`
 
-`master`              ->  `master`   \s\s
+`bugfix/MEC-1984/v2`  ->  `MEC-1984`
+
+`master`              ->  `master`
 
 
 so in summation if you are on branch `feature/RNTM-678`
