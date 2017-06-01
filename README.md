@@ -12,7 +12,6 @@ branchname            ->   captured
 `bugfix/MEC-1984/v2`  ->  `MEC-1984`
 
 `master`              ->  `master`
-----------
 
 in summation, if you are on branch `feature/RNTM-678`
 and you run the following after staging:
