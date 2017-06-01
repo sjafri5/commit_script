@@ -5,20 +5,25 @@ It assumes the following structure:  <ticket-type>/<ticket-number>
 
 examples of what will be captured:
 
-branchname             captured
-----------             --------
-feature/MEC-1984       MEC-1984
-bugfix/MEC-1984/v2     MEC-1984
-master                 master
+branchname            ->   captured
+------------------
+`feature/MEC-1984`    ->  `MEC-1984`
+`bugfix/MEC-1984/v2`  ->  `MEC-1984`
+`master`              ->  `master`
 
 
 so in summation if you are on branch `feature/RNTM-678`
 and you run the following after staging:
 
+```
 commit 'this is my commit message'
+```
 
 the commit message that will be logged will be:
-`[RNTM-678] this is my commit message`
+
+```
+[RNTM-678] this is my commit message
+```
 
 It also logs the last ten commits for your convenience.
 
