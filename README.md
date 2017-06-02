@@ -1,7 +1,7 @@
 ## RULES
 
 The script will parse your branch name to find the JIRA ticket number so you don't have to type it after each commit.
-It assumes the following structure:  <ticket-type>/<ticket-number>
+It assumes the following structure:  ticket-type/ticket-number
 
 
 ### examples
