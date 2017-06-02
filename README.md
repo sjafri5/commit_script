@@ -11,6 +11,8 @@ branchname            ->   captured
 
 `bugfix/MEC-1984/v2`  ->  `MEC-1984`
 
+`feature/NO-JIRA`    ->  `NO-JIRA`
+
 `master`              ->  `master`
 
 
